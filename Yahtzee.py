@@ -22,7 +22,7 @@ while (rollDice.upper() == "Y"):
     if (die1 == die2 and die2 == die3):
         print(f"Yahtzee! (+{YAHTZEE_POINTS})")
         playerScore += YAHTZEE_POINTS
-    elif (die1 == die2 or die2 ==die3 or die1 == die3):
+    elif (die1 == die2 or die2 == die3 or die1 == die3):
         print(f"Two of a Kind! (+{TWO_OF_KIND})")
         playerScore += TWO_OF_KIND
     else:
@@ -40,7 +40,7 @@ while (rollDice.upper() == "Y"):
     if (die1 == die2 and die2 == die3):
         print(f"Yahtzee! (+{YAHTZEE_POINTS})")
         computerScore += YAHTZEE_POINTS
-    elif (die1 == die2 or die2 ==die3 or die1 == die3):
+    elif (die1 == die2 or die2 == die3 or die1 == die3):
         print(f"Two of a Kind! (+{TWO_OF_KIND})")
         computerScore += TWO_OF_KIND
     else:
